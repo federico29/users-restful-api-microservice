@@ -6,11 +6,11 @@ import java.util.UUID;
 
 public class User {
 
-    private final String id;
-    private final String name;
-    private final String email;
-    private final String lastName;
-    private final LocalDateTime createdAt;
+    private String id;
+    private String name;
+    private String email;
+    private String lastName;
+    private LocalDateTime createdAt;
 
     public User(UserDto userDto) {
         this.id = UUID.randomUUID().toString();
